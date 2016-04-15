@@ -1,0 +1,57 @@
+html, body {
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	background-color: #fdf862;
+	text-align: center;
+	display: flex;
+  	flex-direction: column;
+}
+
+h1 {
+	margin-bottom: .2rem;
+	font-size: 200px;
+	color: white;
+	text-shadow: 0px 1px 0px #ccc,
+				 0px 2px 0px #c9c9c9,
+				 0px 3px 0px #bbb,
+				 0px 4px 0px #b9b9b9,
+				 0px 5px 0px #aaa,
+				 0px 6px 1px rgba(0,0,0,0.1),
+				 0px 0px 5px rgba(0,0,0,0.1),
+				 0px 1px 3px rgba(0,0,0,0.3),
+				 0px 3px 5px rgba(0,0,0,0.2),
+				 0px 5px 10px rgba(0,0,0,0.25),
+				 0px 10px 10px rgba(0,0,0,0.2),
+				 0px 20px 20px rgba(0,0,0,0.15);
+}
+
+h2 {
+	font-size: 50px;
+	color: rgba(0,0,0,0.6);
+}
+
+nav ul {
+	display: inline;
+}
+
+nav li {
+	font-size: 1.5rem;
+	padding: 0px 10px;
+	display: inline;
+}
+
+nav a {
+	text-decoration: none;
+	text-shadow: 2px 2px 0px rgba(0,0,0,0.3);
+	color: white;
+}
+
+nav a:hover {
+	color: black;
+}
+
+.cheese-description {
+	word-wrap: break-word;
+	border: 1px;
+	margin: 30rem 30rem;
+	padding: 30px 30px 30px;
+}
