@@ -55,3 +55,12 @@ nav a:hover {
 	margin: 30rem 30rem;
 	padding: 30px 30px 30px;
 }
+
+div ul {
+	display: inline;
+}
+
+div li {
+	display: inline;
+	float: right;
+}
